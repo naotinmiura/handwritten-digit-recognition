@@ -13,12 +13,11 @@ Flaskを使用して構築されたバックエンドと、シンプルなイン
 
 ---
 
-## 📂 ディレクトリ構造
+## ディレクトリ構造
 
 
 
 ```
-plaintext
 handwritten_digit_recognition/
 ├── app.py               # Flaskアプリケーション
 ├── models/
@@ -31,22 +30,16 @@ handwritten_digit_recognition/
 ├── requirements.txt     # 必要なPythonライブラリ
 └── README.md            # 説明ファイル
 ```
-
-ChatGPT: 
-
-- 
-
-```markdown
 ---
 
-## 🛠️ 必要条件
+## 必要条件
 
 - **Python**: バージョン 3.7以上  
 - **仮想環境**: （推奨）`venv`または`virtualenv`
 
 ---
 
-## 🚀 セットアップ
+## セットアップ
 
 ### 1. リポジトリをクローン
 
@@ -80,7 +73,7 @@ pip install -r requirements.txt
 ---
 
 
-## 🖥️ 使用方法 
+## 使用方法 
 
 ### 1. アプリケーションを起動 
 
@@ -102,7 +95,7 @@ python3 app.py
 ---
 
 
-## 🖼️ デモ画面 
+## デモ画面 
 
 ### ホーム画面 
 
@@ -126,28 +119,3 @@ python3 app.py
 
 
 ---
-
-
-## ⚠️ 注意事項 
- 
-- このシステムは学習済みのモデル（`mnist_model.h5`）を使用します。モデルが正しく配置されていない場合、アプリは動作しません。
-
-- 本システムは学習用であり、本番環境では使用しないでください。
-
-
----
-
-
-## 📜 ライセンス 
-このプロジェクトは[MIT License]() の下で提供されています。自由に利用、改変可能です。
-
----
-
-
-## 📩 開発者情報 
- 
-- **名前** : 三浦直人（例）
- 
-- **GitHub** : [yourusername](https://github.com/yourusername)
- 
-- **お問い合わせ** : [email@example.com]()
