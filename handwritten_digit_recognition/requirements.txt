@@ -1,7 +1,0 @@
-numpy
-pandas
-tensorflow
-matplotlib
-flask
-opencv-python
-requests
